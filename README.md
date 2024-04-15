@@ -8,6 +8,8 @@ This project demonstrates how to program a self watering plant pot using an Ardu
 ## Schematics
 ![Schematics](https://cdn.discordapp.com/attachments/919881028796022815/1229452084231802990/image.png?ex=662fbb7a&is=661d467a&hm=02e285ed95d764a0a3462c62fa1eb047778615f96f6232c2cf2bf16fd23db9e6& "Schematics")
 
+[link](https://www.tinkercad.com/things/3SO8YjzOB94-fabulous-migelo?sharecode=gyDwqs92Q0ZnIrpdCgKclYIPxt_jRcUx42ZAR3JGFZU)
+
 
 ## Prerequisites
 

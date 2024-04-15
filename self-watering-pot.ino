@@ -1,6 +1,6 @@
 int sensor;
 const int powerpin = 8;
-const int delayTime = 1000;
+unsigned long delayTime = 1000;
 unsigned long previousMillis = 0;
 #define wetSoil 370  // Define max value we consider soil 'wet'
 #define drySoil 600  // Define min value we consider soil 'dry'
@@ -16,12 +16,11 @@ void setup() {
 void loop() {
   unsigned long currentMillis = millis();
 
-  if (currentMillis - previousMillis >= delay) {
+  if (currentMillis - previousMillis >= delayTime) {
     previousMillis = currentMillis;
     digitalWrite(powerpin, HIGH);
     delay(10);
     sensor = analogRead(A0);
-    // digitalWrite(powerpin, LOW);
     Serial.println(sensor);
     if (sensor < wetSoil) {
       digitalWrite(9, LOW);
